@@ -22,3 +22,6 @@ response with the following body:
     "instance": "/api/persons"
 }
 ```
+
+Note that, from these fields, the `error` field is not specified in the RFC. It is an example of
+an *extension member* of the Problem Details object.
